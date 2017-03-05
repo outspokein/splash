@@ -1,0 +1,103 @@
+body {
+  height: 100%;
+  background-color: transparent;
+  font-size: 1.75em;
+  padding-bottom: 100px;
+}
+
+html {
+  background: url("bokeh.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+
+h1, h2, h3, h4 {
+  font-weight: 300;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+.sponsors a {
+  color: #2F2FB8;
+}
+.sponsors a:hover {
+  color: #2F2FB8;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 750px;
+  margin-top: 2em;
+}
+
+.sponsors {
+  background-color: white;
+  border-radius: 8px;
+  padding: 2em 3em;
+
+}
+/*.sponsor {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 100%;
+}
+.sponsors-gold .sponsor {
+  height: 125px;
+}
+.sponsors-silver .sponsor {
+  height: 90px;
+}*/
+@media only screen and (max-width: 768px) {
+  .sponsors .sponsor {
+    height: 80px;
+    margin: 10px 0;
+  }
+}
+
+footer {
+  color: white;
+  font-size: .75em;
+  text-shadow: 2px 2px 1px #000;
+}
