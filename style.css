@@ -65,6 +65,13 @@ li {
   list-style-type: none;
 }
 
+label {
+  color: floralwhite;
+  margin-left: 190px;
+  padding-top: 12px;
+  padding-bottom: 5px;
+}
+
 .container {
   max-width: 750px;
   margin-top: 2em;
@@ -75,6 +82,16 @@ li {
   border-radius: 8px;
   padding: 2em 3em;
 
+}
+
+.btn {
+  float: right;
+  margin-right: 69px;
+  margin-top: -34px;
+}
+
+.form-inline {
+  margin-left: 50px;
 }
 /*.sponsor {
   background-position: center;
